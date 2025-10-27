@@ -1,1 +1,1 @@
-# PoetreeX Automate Studio\n\nReact + Tailwind 双语网站模板，用于展示 SME 自动化服务。\n\n## 使用方法\n\n```bash\nnpm install\nnpm run dev\n```\n\n部署到 GitHub Pages：\n\n```bash\nnpm run deploy\n```
+# PoetreeX Automate Studio\n\nReact + Tailwind 双语网站模板，用于展示 SME 自动化服务。
