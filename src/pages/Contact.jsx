@@ -12,7 +12,7 @@ export default function Contact(){
       <div className="bg-white p-6 rounded shadow-sm">
         <p className="mb-4">{t('contactText')}</p>
         <div className="flex gap-3">
-          <a href={`mailto:gerrardhong8@gmail.com`} className="px-4 py-2 border rounded">Email</a>
+          <a href="mailto:admin@poetreex.com" className="px-4 py-2 border rounded">Email</a>
           <a href="https://wa.me/60169326460" target="_blank" rel="noreferrer" className="px-4 py-2 bg-green-600 text-white rounded">{t('whatsapp')}</a>
         </div>
       </div>

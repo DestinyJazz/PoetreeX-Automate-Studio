@@ -15,7 +15,7 @@ const translations = {
     ],
     aboutTitle: 'About Me',
     contactTitle: 'Contact',
-    contactText: 'Email me at your-email@example.com or start a WhatsApp chat.',
+    contactText: 'Email me at admin@poetreex.com or start a WhatsApp chat.',
     whatsapp: 'Chat on WhatsApp'
   },
   zh: {
