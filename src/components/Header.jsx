@@ -17,6 +17,7 @@ export default function Header(){
           <Link to="/" className="hover:underline">Home</Link>
           <Link to="/services" className="hover:underline">{lang === 'en' ? 'Services' : '服务'}</Link>
           <Link to="/about" className="hover:underline">{lang === 'en' ? 'About' : '关于'}</Link>
+          <Link to="/works" className="hover:underline">{lang === 'en' ? 'Our Works' : '作品'}</Link>
           <Link to="/contact" className="hover:underline">{lang === 'en' ? 'Contact' : '联系'}</Link>
           <button onClick={switchLang} className="ml-2 px-3 py-1 border rounded">{lang === 'en' ? '中文' : 'EN'}</button>
         </nav>

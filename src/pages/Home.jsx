@@ -11,7 +11,10 @@ export default function Home(){
         <div>
           <h1 className="text-3xl font-extrabold mb-4">{t('siteTitle')}</h1>
           <p className="mb-6 text-lg text-gray-700">{t('tagline')}</p>
-          <a href="/services" className="inline-block px-6 py-3 bg-teal-600 text-white rounded">{t('servicesTitle')}</a>
+          <div className="flex flex-wrap gap-4">
+            <a href="/services" className="inline-block px-6 py-3 bg-teal-600 text-white rounded">{t('servicesTitle')}</a>
+            <a href="/works" className="inline-block px-6 py-3 border-2 border-teal-600 text-teal-700 rounded hover:bg-teal-50 transition">{t('worksTitle')}</a>
+          </div>
         </div>
         <div className="flex justify-center">
           <Lottie animationData={chatbotAnimation} loop={true} style={{ width: 320, height: 320 }} />

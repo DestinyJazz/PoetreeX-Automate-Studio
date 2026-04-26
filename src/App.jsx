@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import Services from './pages/Services'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import Works from './pages/Works'
 
 export default function App(){
   return (
@@ -18,6 +19,7 @@ export default function App(){
             <Route path="/services" element={<Services />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/works" element={<Works />} />
           </Routes>
         </main>
         <footer className="bg-white border-t py-6 mt-8">

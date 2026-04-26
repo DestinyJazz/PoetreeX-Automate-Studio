@@ -13,6 +13,21 @@ const translations = {
       'Custom AI Workflows (n8n / Make)',
       'Automation Training & Deployment Support'
     ],
+    worksTitle: 'Our Works',
+    worksDesc: 'A collection of tools and products we have built.',
+    worksVisit: 'Visit',
+    works: [
+      {
+        title: 'Poetask',
+        desc: 'AI-powered WhatsApp assistant that converts casual messages into Google Calendar events automatically.',
+        url: 'https://poetask.poetreex.com',
+      },
+      {
+        title: 'Berapa Nak Bagi',
+        desc: 'Malaysia-specific calculator for culturally appropriate gift money and ang pow amounts across different states.',
+        url: 'https://bagi.poetreex.com',
+      },
+    ],
     aboutTitle: 'About Me',
     contactTitle: 'Contact',
     contactText: 'Email me at admin@poetreex.com or start a WhatsApp chat.',
@@ -29,6 +44,21 @@ const translations = {
       'AI 问答机器人 (FAQ)',
       '定制 AI 工作流程 (n8n / Make)',
       '自动化培训与部署支持'
+    ],
+    worksTitle: '作品',
+    worksDesc: '我们构建的工具与产品合集。',
+    worksVisit: '访问',
+    works: [
+      {
+        title: 'Poetask',
+        desc: 'AI 驱动的 WhatsApp 助手，自动将消息转换为 Google 日历事件。',
+        url: 'https://poetask.poetreex.com',
+      },
+      {
+        title: '给多少好',
+        desc: '马来西亚各州婚礼红包金额文化参考计算器。',
+        url: 'https://bagi.poetreex.com',
+      },
     ],
     aboutTitle: '关于我',
     contactTitle: '联系',
